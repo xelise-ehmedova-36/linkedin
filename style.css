@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.in{
+    background-color:#0a66c2 ;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35px;
+    text-align: center;
+margin-left: 6em;
+height: 40px;
+}
+.legal{
+     position: relative;
+
+}
+
+  
+
+.icon{
+     position: absolute;
+    left: 0;
+    top: 4px; 
+}
+
+.input{
+     padding: 6px 0px 6px 30px; 
+    
+}
+.input:hover{
+    width: 400px;
+
+}
+.input:focus ~ .display {
+    display:block;
+}
+.display{
+    display: none;
+}
+.link{
+    text-decoration: none;
+ color: black;
+}
+
+
+.icons{
+    width: 34px;
+    height: 34px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 17px;
+    margin-left: 300px;
+}
+.p{
+    font-size: 13px;
+    color: gray;
+}
+.p1{
+    font-size:13px ;
+    color: gray;
+}
+.date{
+    position: relative;
+    width: 172px;
+    height: 30px;
+    border: 2px solid rgb(193 193 193);
+    margin-left: 20px;
+    
+} 
+.input:focus{
+    .date{
+
+    }
+}
+#sifir::before{
+    content: "$";
+}
+.text{
+    color: gold;
+}
+#sifir{
+margin-left: 40px;
+}
+#text1{
+    margin-left: 12px;
+    flex-wrap: wrap;
+}
